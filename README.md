@@ -1,1 +1,5 @@
-"# structured_illumination_microscopy" 
+This section focuses on reconstructing images (random and hg) using orthogonal illumination and the compressed sensing approach by minimizing the total variance of the final image. The illumination dataset and files used in the project work were acquired from Dr Michael. The illumination data were grouped into two data folders, namely “random” and “hg”, each containing positive and negative intensity profiles used for incoherent structured illumination. 
+The CSV file dataset includes Illum-phantom-random, Illum-USAF-random, Illum-phantom-hg, and Illum-USAF-hg contained projection/illumination coefficients in reconstructing both 
+random and hg images for phantom and USAF, respectively.
+Six (6) Variables were created to store the Total illumination profile, positive intensity profiles and negative intensity profiles of both random and hg illumination dataset. The Total illumination  profile was calculated by taking the difference of each positive and negative image intensity profile present in the random and hg dataset. Additionally, four (4) variables were created to store the projection coefficients found in the CSV Files.
+The results realized in applying both orthogonal and compressed sensing approach to reconstruct the images are shown for both compressing sensing and illumination microscopy;
